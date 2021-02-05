@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v2.min.js?2.9.3"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+<body>                                                 
+<div>
+<h2>Network of Movies</h2>
+<h3>Select nodes from each subnetwork </h3>
+<center><button id="sim" onclick="node_summary()">Compute similarity</button></center>
+<center><input type="button" value="Reload"  onClick="document.location.reload(true)"></center>
+<br>
+<table id="net1" border=1></table>
+<br>
+</div>
+<div id="t1"><h4>Network1</h4></div>
+<div id="t2"><h4>Network2</h4></div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
